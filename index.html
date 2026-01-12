@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRM Royal Prestige</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CRM Ventas Royal Prestige</h1>
+
+<form id="crmForm">
+  <input type="text" id="nombre" placeholder="Nombre cliente" required>
+  <input type="text" id="telefono" placeholder="Teléfono" required>
+  <select id="provincia">
+    <option>Santa Cruz</option>
+    <option>Río Grande</option>
+    <option>Ushuaia</option>
+  </select>
+  <button type="submit">Guardar</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Teléfono</th>
+      <th>Provincia</th>
+    </tr>
+  </thead>
+  <tbody id="tabla"></tbody>
+</table>
+
+<script src="app.js"></script>
+</body>
+</html>
 
